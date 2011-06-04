@@ -1,6 +1,7 @@
 #+STARTUP: nofold
 * Rum development
 ** Polishing
+*** Release the keyboard hook component as a separate gem
 *** Mac
 **** Implement mac/keyboard_hook in pure MacRuby. See ... [nonsequitur, 6/20/11]
 **** Get rid of the bundled Growl framework binary [nonsequitur, 6/20/11]
