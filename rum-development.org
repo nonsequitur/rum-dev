@@ -1,0 +1,25 @@
+#+STARTUP: nofold
+* Rum development
+** Polishing
+*** Mac
+**** Implement mac/keyboard_hook in pure MacRuby. See ... [nonsequitur, 6/20/11]
+**** Get rid of the bundled Growl framework binary [nonsequitur, 6/20/11]
+*** hotkey_core.rb
+**** HotkeySet and HotkeyProcessor have been in a constant state of flux
+     They need some cleanups and, more importantly, tests.
+** Bug fixes
+*** Windows message box
+** New minor features
+** New major features
+*** Hotstrings
+*** Macros: Record and replay key presses
+*** Automatically generating Layouts os
+
+* How to contribute:
+  For larger-scale features: To announce that you're working on a
+  feature, append it with your name in brackets, plus, optionally, a
+  date when you expect to ship or when you can offer a status
+  report. Like so: [my_name, 10/30/11]
+
+  Feel free to send GitHub pull requests for this repo.  Omit the
+  message subject and body if your commits are self-explanatory.
